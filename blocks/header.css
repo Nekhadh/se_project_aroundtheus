@@ -1,0 +1,29 @@
+.header {
+  margin-top: 45px;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-bottom: 1px solid #545454;
+  max-width: 882px;
+  box-sizing: border-box;
+}
+.header__logo {
+  padding: 45px 0 41px 0;
+  object-fit: contain;
+}
+@media screen and (max-width: 500px) {
+  .header__logo {
+    width: 126px;
+    height: 24px;
+    margin: 0;
+    padding: 28px 0 32px 27px;
+  }
+}
+@media screen and (max-width: 940px) and (min-width: 500px) {
+  .header {
+    margin: 0;
+    width: 100%;
+    max-width: 768px;
+  }
+}
