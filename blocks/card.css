@@ -42,6 +42,7 @@
   white-space: nowrap;
   overflow: hidden;
   margin: 0;
+  font-family: "Inter", Arial, sans-serif;
 }
 .card__like-button {
   background: transparent url(../images/heart.svg) center no-repeat;
