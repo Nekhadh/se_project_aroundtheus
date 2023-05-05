@@ -134,7 +134,9 @@
 @media screen and (max-width: 320px) {
   .profile__info {
     justify-content: center;
+
     gap: 14px 10px;
+
     margin: 26px 19px 36px 19px;
   }
 
@@ -144,12 +146,15 @@
 
   .profile__add-button {
     margin: 0;
+
     max-width: 282px;
   }
 
   .profile__description {
     padding: 0 19px 0 19px;
+
     display: flex;
+
     justify-content: center;
   }
 }
