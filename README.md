@@ -15,4 +15,4 @@ Project Features
 Future of the project
 This is Stage 1 of a series of development activities for this project.
 
-Link: https://github.com/Nekhadh/se_project_library.git
+Link: git@github.com:Nekhadh/se_project_aroundtheus.git
