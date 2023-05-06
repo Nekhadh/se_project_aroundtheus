@@ -15,4 +15,8 @@ Project Features
 Future of the project
 This is Stage 1 of a series of development activities for this project.
 
+<<<<<<< HEAD
 Link: git@github.com:Nekhadh/se_project_aroundtheus.git
+=======
+Link: https://nekhadh.github.io/se_project_aroundtheus/
+>>>>>>> 42b34b3ad5842411636cef452b9cea227684207e
