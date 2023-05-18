@@ -45,7 +45,7 @@
   grid-area: button;
   align-self: center;
   border: 1px solid #ffffff;
-  margin: 0;
+  margin: 0 0 0 18px;
   cursor: pointer;
   /* display: inline-block; */
   /* background-size: 10px 10px; */
@@ -88,6 +88,7 @@
   .profile__image {
     margin-left: 19px;
   }
+
   .profile__add-button {
     margin-right: 19px;
   }
@@ -98,17 +99,24 @@
     margin-left: 19px;
     grid-template-columns: auto;
   }
+  .profile__edit-button {
+    margin: 0;
+    align-self: flex-start;
+    margin-top: 4px;
+  }
 }
-@media screen and (max-width: 740px) {
+
+@media screen and (max-width: 759px) {
+  .profile__title {
+    font-size: 22px;
+    line-height: 27px;
+  }
   .profile {
     grid-template-columns: minmax(auto, 250px) auto;
   }
-  .profile__title {
-    font-size: 22px;
-    line-height: 26.63px;
-  }
 }
-@media screen and (max-width: 621px) {
+
+@media screen and (max-width: 669px) {
   .profile {
     max-width: 564px;
     grid-template-columns: minmax(auto, 391px) auto;
@@ -119,14 +127,10 @@
 
   .profile__description {
     font-size: 14px;
-    line-height: 17px;
-  }
-  .profile__edit-button {
-    height: 18px;
-    width: 18px;
-    padding: 0;
+    line-height: 16.94px;
   }
 }
+
 @media screen and (max-width: 581px) {
   .profile {
     margin: 0 auto;
@@ -134,26 +138,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; */
   }
+  .profile__add-button {
+    width: 282px;
+    margin: 0;
+  }
+
   .profile__info {
     display: flex;
     justify-content: center;
     padding-top: 26.25px;
     padding-bottom: 36px;
     max-width: 282px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
+
   .profile__edit-button {
-    display: inline-block;
+    width: 18px;
+    height: 18px;
   }
-  .profile__add-button {
-    width: 282px;
-    margin: 0;
+  .profile__image {
+    margin: auto;
   }
   .profile__title {
     padding-right: 10px;
@@ -161,23 +165,34 @@
   .profile__description {
     margin-top: 14px;
   }
-  .profile__image {
-    margin: auto;
-    text-align: center;
+  .profile__edit-button {
+    height: 18px;
+    width: 18px;
   }
 }
-/* @media screen  (max-width: 320px) {
-  .profile {
+
+/* @media screen and (max-width: 320px) {
+  .profile__info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .profile__title {
+    flex-basis: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-right: 10px;
   }
-  .profile__edit-button{
-    display: inline-block;
-    margin-left: 10px;
+
+  .profile__edit-button {
+    align-self: flex-start;
+    margin-left: auto;
   }
-  .profile__image,
-  .profile__info {
-    text-align: center;
+  .profile__image {
+    margin: 0 auto;
   }
 } */
