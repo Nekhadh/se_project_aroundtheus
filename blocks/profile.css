@@ -93,16 +93,13 @@
     margin-right: 19px;
   }
   .profile__edit-button {
-    margin-right: 19px;
+    margin: 0;
+    align-self: flex-start;
+    margin-top: 4px;
   }
   .profile__info {
     margin-left: 19px;
     grid-template-columns: auto;
-  }
-  .profile__edit-button {
-    margin: 0;
-    align-self: flex-start;
-    margin-top: 4px;
   }
 }
 
@@ -164,10 +161,6 @@
   }
   .profile__description {
     margin-top: 14px;
-  }
-  .profile__edit-button {
-    height: 18px;
-    width: 18px;
   }
 }
 
